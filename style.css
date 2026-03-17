@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7.5rem;
+    
+    border-bottom: 5px solid black;
+
+    box-shadow: 10 px 10 px 5px grey;
+}
+
+section.sitelogoandtitle {
+    background-color: turquoise;
+    height: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
