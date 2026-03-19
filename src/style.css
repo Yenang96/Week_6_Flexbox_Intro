@@ -1,0 +1,46 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header {
+
+    display: flex;
+     justify-content: space-between;
+    height: 7.5rem;
+    box-shadow: 10px 10px 5px grey;
+
+
+}
+
+header > section, header > nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.sitelogoandtitle > img {
+    height: 50%;
+    padding: 1em;
+}
+
+
+nav{
+    gap: 80px;
+}
+
+
+section.headersearchbar{
+
+margin-right: 3%;
+}
+
+nav > a:hover {
+    background-color: rgb(255, 115, 0);
+}
