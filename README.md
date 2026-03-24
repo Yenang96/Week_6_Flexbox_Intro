@@ -15,3 +15,5 @@ Flexbos
         - Columns of related links in the footer
             - website nax links
             - contact/social media links
+
+
