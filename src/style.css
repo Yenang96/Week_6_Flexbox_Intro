@@ -41,6 +41,6 @@ section.headersearchbar{
 margin-right: 3%;
 }
 
-nav > a:hover {
+nav > a:hover, nav-active {
     background-color: rgb(255, 115, 0);
 }
