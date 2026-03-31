@@ -13,7 +13,7 @@ Flexbos
         - Text in cards section, e.g. testimonials/reviews/latest post/etc etc
     - Footer
         - Columns of related links in the footer
-            - website nax links
+            - website nav links
             - contact/social media links
 
 
