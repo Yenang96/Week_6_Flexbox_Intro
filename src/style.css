@@ -48,21 +48,17 @@ nav > a:hover, nav-active {
 section#heroimage {
     width: 100%;
     height: 70dvh;
+    flex-direction: row;
 
     heroimage {
         background-size: cover;
         max-height: 100px;
         background-image: linear-gradient(to right, grey, white);
     }
-.hero-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40%;
-    }
+
     
 .hero-text{ 
-    max-width: 600px;
+    flex-direction: column;
 
 }
 
@@ -95,8 +91,11 @@ section#heroimage {
 
 }
 
+.hero-image{
+flex-direction: column;
+}
+
 section#calltoaction {
-    position: absolute;
 
     
     button {
