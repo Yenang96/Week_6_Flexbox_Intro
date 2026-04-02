@@ -9,62 +9,63 @@
 header {
 
     display: flex;
-     justify-content: space-between;
+    justify-content: space-between;
     height: 7.5rem;
     box-shadow: 10px 10px 5px grey;
 
 
 }
 
-header > section, header > nav {
+header>section,
+header>nav {
     height: 100%;
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 
-section.sitelogoandtitle > img {
+section.sitelogoandtitle>img {
     height: 50%;
     padding: 1em;
 }
 
 
-nav{
+nav {
     gap: 80px;
 }
 
 
-section.headersearchbar{
+section.headersearchbar {
 
-margin-right: 3%;
+    margin-right: 3%;
 }
 
-nav > a:hover, nav-active {
+nav>a:hover,
+nav-active {
     background-color: rgb(255, 115, 0);
 }
 
 section#heroimage {
+    display: flex;
     width: 100%;
     height: 70dvh;
-    flex-direction: row;
 
-    heroimage {
+    .heroimage {
         background-size: cover;
         max-height: 100px;
         background-image: linear-gradient(to right, grey, white);
     }
 
-    
-.hero-text{ 
-    flex-direction: column;
-
-}
+    .hero-text {
+        flex-direction: row;
+    }
 
     .hero-text h1 {
         font-size: 48px;
         margin-bottom: 20%;
+
     }
 
     .hero-text h2 {
@@ -74,30 +75,6 @@ section#heroimage {
         line-height: 1.5;
     }
 
-    button{
-        background-color: #f37421;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 8px;
-    }
-
-
-}
-
-.hero-image{
-flex-direction: column;
-}
-
-section#calltoaction {
-
-    
     button {
         background-color: #f37421;
         border: none;
@@ -110,14 +87,30 @@ section#calltoaction {
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 8px;
-
     }
+
+
 }
 
-section#testimonials {
+
+section#services {
     width: 100%;
     height: 33dvh;
-    background-color: rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    ;
 }
 
+#services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.section#3D-animation{
+ size: 2dvh;
+}
 
