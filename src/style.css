@@ -53,52 +53,48 @@ section#heroimage {
     width: 100%;
     height: 70dvh;
     background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+}
 
-    .hero-image {
-        background-size: cover;
-        max-height: 100px;
+section#heroimage .hero-image {
+    background-size: cover;
+    max-height: 100px;
+}
 
-    }
+section#heroimage .hero-text {
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 50%;
+}
 
-    .hero-text {
-        flex-direction: row;
-        align-items: center;
-        line-height: 1;
-        margin-left: 100px;
-        margin-top: 150px;
-        width: 50%;
-    }
+section#heroimage .hero-text h1 {
+    font-size: 70px;
+    max-width: 600px;
+    margin-bottom: 3%;
+}
 
-    .hero-text h1 {
-        font-size: 70px;
-        max-width: 600px;
-        margin-bottom: 3%;
+section#heroimage .hero-text h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 5%;
+    line-height: 1.5;
+    max-width: 600px;
+}
 
-    }
-
-    .hero-text h2 {
-        font-size: 25px;
-        font-weight: normal;
-        margin-bottom: 5%;
-        line-height: 1.5;
-        max-width: 600px;
-    }
-
-    button {
-        background-color: #f37421;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 8px;
-    }
-
-
+section#heroimage button {
+    background-color: #f37421;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 
@@ -109,11 +105,11 @@ section#services {
     flex-direction: column;
     text-align: center;
     margin: 50px;
+}
 
-    .services-text h1 {
-        font-size: 48px;
-        padding-top: 50px;
-    }
+section#services .services-text h1 {
+    font-size: 48px;
+    padding-top: 50px;
 }
 
 #services-container {
@@ -124,12 +120,11 @@ section#services {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50%;
+}
 
-    img {
-        border-radius: 10%;
-        padding-bottom: 5%;
-    }
-
+#services-container img {
+    border-radius: 10%;
+    padding-bottom: 5%;
 }
 
 .p.body-content {
@@ -143,39 +138,36 @@ section#About {
     width: 100%;
     height: 90dvh;
     gap: 200px;
+}
 
-    .about-image {
-        flex-direction: column;
-        width: 60%;
-        height: 750px;
-        background-image: url(Yenny.jpg);
-        background-size: cover;
-        background-position: center;
+section#About .about-image {
+    flex-direction: column;
+    width: 60%;
+    height: 750px;
+    background-image: url(Yenny.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-    }
+section#About .about-text {
+    width: 40%;
+    flex-direction: column;
+    margin-left: 100px;
+}
 
-    .about-text {
-        width: 40%;
-        flex-direction: column;
-        margin-left: 100px;
+section#About .about-text h1 {
+    font-size: 65px;
+    max-width: 600px;
+    margin-bottom: 3%;
+    margin-top: 20%;
+}
 
-    }
-
-    .about-text h1 {
-        font-size: 65px;
-        max-width: 600px;
-        margin-bottom: 3%;
-        margin-top: 20%;
-    }
-
-    .about-text p {
-
-        font-size: 20px;
-        font-weight: normal;
-        margin-bottom: 5%;
-        line-height: 1.5;
-        max-width: 600px;
-    }
+section#About .about-text p {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5%;
+    line-height: 1.5;
+    max-width: 600px;
 }
 
 section#calltoaction{
@@ -191,21 +183,20 @@ section#calltoaction{
     font-size: 50px;
     text-align: center;
     margin: 10% 10%;
+}
 
-    button {
-        background-color: #f37421;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 8px;
-
-    }
+.call-to-action button {
+    background-color: #f37421;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 .footer-container {
@@ -220,7 +211,6 @@ section#calltoaction{
     line-height: 1.5;
 
 }
-    
 }
 
 
@@ -250,28 +240,26 @@ background-color: rgb(238, 238, 238);
     font-size: 50px;
     text-align: center;
     margin: 10%;
+}
 
-    .formsubmit {
-        font-size: 30px;
-        margin-top: 100px;
-        text-align: left;
-        
-    
-    }
+.contact-form .formsubmit {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: left;
+}
 
-    input {
-        background-color: #f37421;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 8px;
-    }
+.contact-form input {
+    background-color: #f37421;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 input[type=text], select, textarea {
@@ -286,7 +274,7 @@ input[type=text], select, textarea {
     padding-bottom: 1.6rem;
     padding-left: 1rem;
     font-size: 1rem;
-  resize: vertical
+  resize: vertical;
 
 
 }
