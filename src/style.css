@@ -52,6 +52,7 @@ section#heroimage {
     width: 100%;
     height: 70dvh;
     background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+    overflow: hidden;
 }
 
 section#heroimage .hero-image {
@@ -104,7 +105,6 @@ section#services {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 50px;
 }
 
 section#services .services-text h1 {
@@ -120,6 +120,7 @@ section#services .services-text h1 {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50%;
+    margin: 10px 10px;
 }
 
 #services-container img {
@@ -278,8 +279,10 @@ input[type=text], select, textarea {
 
 }
 
+
+
 /*Landscape phones and portrait tablets*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
 
       header>section,
 header>nav {
@@ -339,6 +342,46 @@ section#heroimage .hero-text h2 {
     max-width: 350px;
 }
 
+section#services {
+    width: 100%;
+    height: 200dvh;
+    text-align: center;
+}
+
+#services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 30px;
+    img { width: 250px;
+     height: 250px;}
+
+     .p.body-content {
+    max-width: 10px;
+    padding: 30px;
+}
+
+}
+
+section#services .services-text h1 {
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50%;
+    margin: 10px 10px;
+}
+
+#services-container img {
+    border-radius: 10%;
+    padding-bottom: 5%;
 }
 
 
@@ -358,5 +401,6 @@ section#heroimage {
     width: 100%;
     height: 70dvh;
     background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+}
 }
 }
