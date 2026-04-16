@@ -21,7 +21,7 @@ header {
 
 header>section,
 header>nav {
-    height: 30%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,11 +40,6 @@ nav {
 }
 
 
-section.headersearchbar {
-
-    margin-right: 3%;
-}
-
 nav>a:hover,
 nav-active {
     background-color: rgb(255, 115, 0);
@@ -53,6 +48,7 @@ nav-active {
 
 section#heroimage {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: 70dvh;
     background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
@@ -70,6 +66,7 @@ section#heroimage .hero-text {
     margin-left: 100px;
     margin-top: 150px;
     width: 50%;
+    text-align: left;
 }
 
 section#heroimage .hero-text h1 {
@@ -284,19 +281,82 @@ input[type=text], select, textarea {
 /*Landscape phones and portrait tablets*/
 @media screen and (max-width: 600px) {
 
+      header>section,
+header>nav {
+    height: 50%;
+    width: 100%;
+    margin-top: 5px;
+
 }
+
+section.sitelogoandtitle>img {
+    height: 70%;
+    align-items: center;
+    
+}
+
+nav {
+    gap: 40px;
+    width: 100%;
+}
+
+section#heroimage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70dvh;
+    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+}
+
+section#heroimage .hero-image {
+   width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+
+section#heroimage .hero-text {
+    align-items: center;
+    line-height: 1;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+section#heroimage .hero-text h1 {
+    font-size: 50px;
+    max-width:350px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+section#heroimage .hero-text h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5%;
+    line-height: 1.5;
+    max-width: 350px;
+}
+
+}
+
+
+
+
+
 
 /*Desktop/Laptop/etc - Large screens*/
 @media screen and (min-width: 1200px) {
     
-    header>section,
-header>nav {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  nav {
+    gap: 80px;
+    width: 50%;
 }
 
-
+section#heroimage {
+    width: 100%;
+    height: 70dvh;
+    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+}
 }
