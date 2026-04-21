@@ -34,7 +34,6 @@ header>nav {
 
 section.sitelogoandtitle>img {
     height: 50%;
-    padding: 1em;
     margin-left: 20px;
 }
 
@@ -251,6 +250,21 @@ section#main-about{
     height: 500px;
 }
 
+
+/*Work page*/
+
+section#gallery-zain h1 {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+    color: rgb(177, 177, 177);
+    height: 150px;
+    align-content: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -312,12 +326,12 @@ img {
   top: 0;
 }
 
-/* Container for image text */
 .caption-container {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
   color: white;
+  font-size: 30px;
 }
 
 .row:after {
@@ -326,13 +340,11 @@ img {
   clear: both;
 }
 
-/* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 14.28%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
@@ -615,6 +627,13 @@ section#main-about{
     background-size: cover;
     background-position: center;
     height: 500px;
+}
+
+/*Work page*/
+
+section#gallery-zain h1 {
+    font-size: 30px;
+    height: 70px;
 }
 
 
