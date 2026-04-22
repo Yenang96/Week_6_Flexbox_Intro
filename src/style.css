@@ -674,13 +674,9 @@ section#gallery-zain h2 {
     height: 30px;
 }
 
-.iframe {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    border: none;
-    border-radius: 10px;
-}
+iframe {
+    height: 200px;
+    width: 100%;}
 
 .caption-container {
   font-size: 15px;
@@ -701,8 +697,8 @@ section#gallery-zain h2 {
     height: 30px;
 }
 
-section#animation {
-  padding-top: 10px;
+section#Animation h1 {
+  padding-top: 20px;
 }
 
 
