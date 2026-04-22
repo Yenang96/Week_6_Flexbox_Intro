@@ -390,6 +390,20 @@ section#gallery-ulna h2 {
     align-content: center;
 }
 
+section#calltoaction{
+    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+    background-size: cover;
+    background-position: center;
+
+    h1{
+        font-size: 70px;
+        text-align: center;
+        margin: 10% 10%;
+        color: black;
+        background-color: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+    }
+}
+
 
 
 /*Contact us page*/
@@ -444,6 +458,8 @@ input[type=text], select, textarea {
 
 
 }
+
+
 
 
 
@@ -699,6 +715,19 @@ section#gallery-zain h2 {
 
 section#Animation h1 {
   padding-top: 20px;
+}
+
+section#calltoaction{
+    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+    background-size: cover;
+    background-position: center;
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 10% 10%;
+        color: rgb(0, 0, 0);
+    }
 }
 
 
