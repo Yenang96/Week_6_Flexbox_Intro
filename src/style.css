@@ -177,11 +177,10 @@ section#About .about-text p {
     max-width: 600px;
 }
 
-section#calltoaction{
+section#calltoaction {
     display: flex;
     width: 100%;
     background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
-    background-image: cover;
 
 }
 
@@ -209,23 +208,23 @@ section#calltoaction{
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     margin: 50px 100px;
 
-.p{
+}
+
+.footer-container p {
     line-height: 1.5;
 }
-}
 
 
-.services-links{
+.services-links {
     line-height: 2;
     text-align: center;
 }
 
-.Contact{
+.Contact {
     line-height: 2;
     text-align: center;
 }
@@ -240,7 +239,8 @@ section#main-about .about-text h1 {
     text-align: center;
     color: rgb(0, 0, 0);
 }
-section#main-about{
+
+section#main-about {
     width: 100%;
     overflow: hidden;
     background-image: url(./assets/Yenny.jpg);
@@ -264,6 +264,7 @@ section#gallery-zain h1 {
     height: 100px;
     align-content: center;
 }
+
 section#gallery-zain h2 {
     font-size: 20px;
     height: 50px;
@@ -277,86 +278,86 @@ section#gallery-zain h2 {
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .container {
-  position: relative;
+    position: relative;
 }
 
 .modeling-slides {
-  display: none;
+    display: none;
 }
 
 .cursor {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 .caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-  font-size: 30px;
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    font-size: 30px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  padding-bottom: 50px;
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 50px;
 }
 
 .column {
-  float: left;
-  width: 14.28%;
+    float: left;
+    width: 14.28%;
 }
 
 .demo {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 iframe {
@@ -378,6 +379,7 @@ section#gallery-ulna h1 {
     height: 100px;
     align-content: center;
 }
+
 section#gallery-ulna h2 {
     font-size: 20px;
     height: 50px;
@@ -390,29 +392,28 @@ section#gallery-ulna h2 {
     align-content: center;
 }
 
-section#calltoaction{
-    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+section#calltoaction {
+    background-color: rgb(36, 36, 36);
     background-size: cover;
     background-position: center;
+}
 
-    h1{
-        font-size: 70px;
-        text-align: center;
-        margin: 10% 10%;
-        color: black;
-        background-color: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
-    }
+section#calltoaction h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 10% 10%;
+    color: black;
 }
 
 
 
 /*Contact us page*/
 
-section#contactform{
+section#contactform {
     display: flex;
     width: 100%;
     height: 200dvh;
-background-color: rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
 }
 
 .contact-form {
@@ -442,19 +443,21 @@ background-color: rgb(238, 238, 238);
     border-radius: 8px;
 }
 
-input[type=text], select, textarea {
-  width: 60%;
-  padding: 12px;
-  background-color: #eeeeee;
-  border: 1px solid #eeeeee;
-  border-bottom: 1px solid #c2c2c2;
- margin-top: .5rem;
+input[type=text],
+select,
+textarea {
+    width: 60%;
+    padding: 12px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-bottom: 1px solid #c2c2c2;
+    margin-top: .5rem;
     margin-bottom: 1.5rem;
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
     padding-left: 1rem;
     font-size: 1rem;
-  resize: vertical;
+    resize: vertical;
 
 
 }
@@ -466,289 +469,286 @@ input[type=text], select, textarea {
 
 
 /*Landscape phones and portrait tablets*/
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
 
-      header>section,
-header>nav {
-    height: 50%;
-    width: 100%;
-    margin-top: 10px;
+    header>section,
+    header>nav {
+        height: 50%;
+        width: 100%;
+        margin-top: 10px;
 
-}
+    }
 
-section.sitelogoandtitle>img {
-    height: 90%;
-    align-items: center;
-    margin-left: 0px;
-}
+    section.sitelogoandtitle>img {
+        height: 90%;
+        align-items: center;
+        margin-left: 0px;
+    }
 
-nav {
-    gap: 40px;
-    width: 100%;
-    margin-right: 0px;
-}
+    nav {
+        gap: 40px;
+        width: 100%;
+        margin-right: 0px;
+    }
 
-section#heroimage {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
-}
+    section#heroimage {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+    }
 
-section#heroimage .hero-image {
-   width: 100%;
-    height: 50%;
-    background-size: cover;
-}
+    .img {
+        width: 10%;
+        height: 50%;
+        background-size: cover;
+    }
 
-section#heroimage .hero-text {
-    align-items: center;
-    line-height: 1;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-}
+    section#heroimage .hero-text {
+        align-items: center;
+        line-height: 1;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
 
-section#heroimage .hero-text h1 {
-    font-size: 50px;
-    max-width:350px;
-    margin-bottom: 3%;
-    margin-top: 3%;
-}
+    section#heroimage .hero-text h1 {
+        font-size: 50px;
+        max-width: 350px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
 
-section#heroimage .hero-text h2 {
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 5%;
-    line-height: 1.5;
-    max-width: 350px;
-}
+    section#heroimage .hero-text h2 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 5%;
+        line-height: 1.5;
+        max-width: 350px;
+    }
 
-section#services {
-    width: 100%;
-    height: 160dvh;
-    text-align: center;
-}
+    section#services {
+        width: 100%;
+        height: 160dvh;
+        text-align: center;
+    }
 
-#services-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    gap: 30px;
-    padding-bottom: 2px;
-    img { width: 250px;
-     height: 250px;}
+    #services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 30px;
+        padding-bottom: 2px;
+    }
 
-     .p.body-content {
-    max-width: 10px;
-    padding: 30px;
-}
+    #services-container img {
+        width: 250px;
+        height: 250px;
+    }
 
-}
+    #services-container p.body-content {
+        max-width: 100%;
+        padding: 30px;
+    }
 
-section#services .services-text h1 {
-    font-size: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-}
+    section#services .services-text h1 {
+        font-size: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
 
-#services-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px 10px;
-}
+    #services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 10px;
+    }
 
-#services-container img {
-    border-radius: 10%;
-    padding-bottom: 5%;
-}
+    #services-container img {
+        border-radius: 10%;
+        padding-bottom: 5%;
+    }
 
-p.Body-Content {
-    max-width: 400px;
-    padding: 30px;
-    font-size: 20px;
-}
+    p.Body-Content {
+        max-width: 400px;
+        padding: 30px;
+        font-size: 20px;
+    }
 
-section#About {
-    display: flex;
-    flex-direction: column;
-    width: 100%;  
-    gap: 10px;
-}
+    section#About {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
 
-section#About .about-text {
-    width: 100%;
-    flex-direction: column;
-    margin: 10px 10px;
-    text-align: center;
+    section#About .about-text {
+        width: 100%;
+        flex-direction: column;
+        margin: 10px 10px;
+        text-align: center;
 
-}
+    }
 
-section#About .about-text h1 {
-    font-size: 50px;
-    margin-bottom: 3%;
-    margin: 10px 10px;
-}
+    section#About .about-text h1 {
+        font-size: 50px;
+        margin-bottom: 3%;
+        margin: 10px 10px;
+    }
 
-section#About .about-text p {
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.2;
-    text-align: justify;
-    margin: 10px 10px;
-}
+    section#About .about-text p {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.2;
+        text-align: justify;
+        margin: 10px 10px;
+    }
 
-section#About .about-image {
-    width: 100%;
-    background-image: cover;
-}
+    section#About .about-image {
+        width: 100%;
+    }
 
-.call-to-action {
-    width: 100%;
-    font-size: 25px;
-}
+    .call-to-action {
+        width: 100%;
+        font-size: 25px;
+    }
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 50px 20px;
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 50px 20px;
+    }
 
-.p{
-    line-height: 1.5;
-}
-}
+    .footer-container p {
+        line-height: 1.5;
+    }
 
-.services-links{
- padding-bottom: 10px;
- padding-top: 10px;
- font-size: 20px;
-}
+    .services-links {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
 
-.Contact{
-font-size: 20px;
-}
-
-
-/*Contact us page*/
-
-.contact-form {
-    font-size: 30px;
-    text-align: center;
-}
-
-.contact-form .formsubmit {
-    font-size: 25px;
-    margin-top: 100px;
-    text-align: center;
-}
-
-section#contactform{
-    height: 130dvh;
-}
+    .Contact {
+        font-size: 20px;
+    }
 
 
+    /*Contact us page*/
 
-/*About page*/
+    .contact-form {
+        font-size: 30px;
+        text-align: center;
+    }
 
-section#main-about .about-text h1 {
-    align-items: baseline;
-    text-align: center;
-    margin-top: 120px;
-    color: rgb(235, 99, 8);
-    line-height: 1;
-}
+    .contact-form .formsubmit {
+        font-size: 25px;
+        margin-top: 100px;
+        text-align: center;
+    }
 
-section#main-about{
-    width: 100%;
-    overflow: hidden;
-    background-image: url(./assets/Yenny.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
+    section#contactform {
+        height: 130dvh;
+    }
 
-/*Work page*/
 
-section#gallery-zain h1 {
-    font-size: 30px;
-    height: 50px;
-}
 
-section#gallery-zain h2 {
-    font-size: 15px;
-    height: 30px;
-}
+    /*About page*/
 
-iframe {
-    height: 200px;
-    width: 100%;}
+    section#main-about .about-text h1 {
+        align-items: baseline;
+        text-align: center;
+        margin-top: 120px;
+        color: rgb(235, 99, 8);
+        line-height: 1;
+    }
 
-.caption-container {
-  font-size: 15px;
-}
+    section#main-about {
+        width: 100%;
+        overflow: hidden;
+        background-image: url(./assets/Yenny.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
 
-section#gallery-ulna h1 {
-    font-size: 30px;
-    height: 50px;
-}
+    /*Work page*/
 
-section#gallery-ulna h2 {
-    font-size: 15px;
-    height: 30px;
-}
+    section#gallery-zain h1 {
+        font-size: 30px;
+        height: 50px;
+    }
 
-section#gallery-zain h2 {
-    font-size: 15px;
-    height: 30px;
-}
+    section#gallery-zain h2 {
+        font-size: 15px;
+        height: 30px;
+    }
 
-section#Animation h1 {
-  padding-top: 20px;
-}
+    iframe {
+        height: 200px;
+        width: 100%;
+    }
 
-section#calltoaction{
-    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
-    background-size: cover;
-    background-position: center;
+    .caption-container {
+        font-size: 15px;
+    }
 
-    h1{
+    section#gallery-ulna h1 {
+        font-size: 30px;
+        height: 50px;
+    }
+
+    section#gallery-ulna h2 {
+        font-size: 15px;
+        height: 30px;
+    }
+
+    section#gallery-zain h2 {
+        font-size: 15px;
+        height: 30px;
+    }
+
+    section#Animation h1 {
+        padding-top: 20px;
+    }
+
+    section#calltoaction {
+        background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+        background-size: cover;
+        background-position: center;
+    }
+
+    section#calltoaction h1 {
         font-size: 30px;
         text-align: center;
         margin: 10% 10%;
         color: rgb(0, 0, 0);
     }
+
+
+
+    /*Desktop/Laptop/etc - Large screens*/
+    @media screen and (min-width: 1200px) {
+
+        nav {
+            gap: 80px;
+            width: 50%;
+        }
+
+        section#heroimage {
+            width: 100%;
+            height: 70dvh;
+            background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
+        }
+    }
 }
-
-
-
-/*Desktop/Laptop/etc - Large screens*/
-@media screen and (min-width: 1200px){
-    
-  nav {
-    gap: 80px;
-    width: 50%;
-}
-
-section#heroimage {
-    width: 100%;
-    height: 70dvh;
-    background-image: linear-gradient(to right, rgb(224, 224, 224) 30%, rgb(255, 255, 255), rgb(201, 201, 201));
-}
-}
-}
-
-
-
-
-
